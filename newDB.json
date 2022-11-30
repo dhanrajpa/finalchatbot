@@ -1,8 +1,8 @@
 {
   "category": [
     {
-      "name": "PAL Process and Dashboard.",
-      "counter": "10",
+      "name": "PAL Process and Dashboard ,",
+      "counter": "11",
       "id": 1
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "name": "OES related queries",
-      "counter": "13",
+      "counter": "14",
       "id": 3
     },
     {
@@ -22,34 +22,27 @@
     },
     {
       "name": "Timesheet",
-      "counter": "20",
+      "counter": "21",
       "id": 5
     },
     {
       "name": "Reimbursements",
-      "counter": "100",
+      "counter": "130",
       "id": 6
     },
     {
-      "name": "Installation",
-      "counter": "0",
+      "name": "new cat",
+      "counter": "2",
       "id": 7
     }
   ],
   "queries": [
     {
-      "id": 4,
-      "categoryId": "1",
-      "question": "Do I have to complete all the trainings available on my dashboard",
-      "answer": "These trainings are recommended to you based on project demands and your current skill set. You can decide on which training(s) to accept and make best possible utilization of your time and efforts to upgrade your skills.",
-      "counter": "0"
-    },
-    {
       "id": 6,
       "categoryId": "1",
-      "question": "What if I accept and cannot complete the trainings?",
-      "answer": "You can complete the accepted training later (if possible), or you can withdraw by giving appropriate reason (as the case may be).",
-      "counter": 0
+      "question": "What if I accept and cannot complete the trainings???",
+      "answer": "You can complete the accepted training later (if possible), or you can withdraw by giving appropriate reason (as the case may be)...",
+      "counter": "0"
     },
     {
       "id": 7,
@@ -132,7 +125,7 @@
       "categoryId": "3",
       "question": "How many attempts do we have for the test?",
       "answer": "The test is open until you clear it",
-      "counter": "0",
+      "counter": "1",
       "id": 26
     },
     {
@@ -223,21 +216,21 @@
       "categoryId": "5",
       "question": "Which TT/STT category to be used for recording my training hours in MIS timesheet?",
       "answer": "Log all training related activities under the Unplanned Task category with Task Type: Training Activities and Sub-task Type: Org Training Attended",
-      "counter": "0",
+      "counter": "1",
       "id": 39
     },
     {
       "categoryId": "6",
       "question": "\tWhat is the reimbursement process?",
       "answer": "Reimbursement is applicable only for the “Reimbursable” courses. Once you complete an assigned course, you will be evaluated for the same. Post clearing the evaluation, you will see a “Reimburse” button on your Resource dashboard that you can use to submit your request. ",
-      "counter": "0",
+      "counter": "3",
       "id": 40
     },
     {
       "categoryId": "6",
       "question": "\tHow much is the highest capping for reimbursements?",
       "answer": "Please note that reimbursement is limited to INR 1000 for 30 days at a time and a maximum of INR 3000 in a single appraisal cycle (6 months). For more details, please refer the Reimbursement Process Guidelines.",
-      "counter": "0",
+      "counter": "3",
       "id": 41
     },
     {
@@ -251,14 +244,14 @@
       "categoryId": "6",
       "question": "\tWhen can I apply for reimbursement? Is there any deadline for the same?",
       "answer": "You can apply for reimbursement any time after completion of the offered course. (based on Reimbursement norms active at that time)",
-      "counter": "0",
+      "counter": "1",
       "id": 43
     },
     {
       "categoryId": "6",
       "question": "For reimbursement, Do I have to pass the evaluation?",
       "answer": "Yes, clearing the exam is mandatory for you to apply for a reimbursement.",
-      "counter": "0",
+      "counter": "1",
       "id": 44
     },
     {
@@ -272,14 +265,14 @@
       "categoryId": "6",
       "question": "\tIs Cybage mail ID mandatory to register for reimbursement? And what if I already registered?",
       "answer": "Yes, using your Cybage email id to purchase courses on Udemy is mandatory. If you have registered using any other email id, please replace it with the Cybage id before purchasing the course.",
-      "counter": "0",
+      "counter": "4",
       "id": 46
     },
     {
       "categoryId": "6",
       "question": "\tWhat if I accept the courses and fail to complete it after purchasing within 1 year? Will I be reimbursed?",
       "answer": "You will not be able to avail the reimbursements for the trainings.",
-      "counter": "0",
+      "counter": "5",
       "id": 47
     },
     {
@@ -344,6 +337,20 @@
       "answer": "Request you to get a prior approval from the training team before purchasing it. Also, try clearing your cache",
       "counter": "0",
       "id": 56
+    },
+    {
+      "categoryId": "7",
+      "question": "what is pal?",
+      "answer": "..",
+      "counter": "0",
+      "id": 57
+    },
+    {
+      "categoryId": "1",
+      "question": "Hi Hello",
+      "answer": "Hello Hi",
+      "counter": "1",
+      "id": 58
     }
   ],
   "NewQueries": [
@@ -353,9 +360,19 @@
       "email": "akshaypati@cybage.com"
     },
     {
-      "id": 2,
-      "query": "Do I have to complete the trainings mentioned in the stipulated time period given in the course?",
-      "email": "akshaypati@cybage.com"
+      "query": "fdsxdf",
+      "email": "fgjh",
+      "id": 2
+    },
+    {
+      "query": "gkb  ",
+      "email": " asas ",
+      "id": 3
+    },
+    {
+      "query": "fdfgdfg",
+      "email": "dfgd",
+      "id": 4
     }
   ],
   "admin": [
