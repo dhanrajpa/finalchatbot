@@ -1,0 +1,368 @@
+{
+  "category": [
+    {
+      "name": "PAL Process and Dashboard.",
+      "counter": "10",
+      "id": 1
+    },
+    {
+      "name": "Free Courses",
+      "counter": "5",
+      "id": 2
+    },
+    {
+      "name": "OES related queries",
+      "counter": "13",
+      "id": 3
+    },
+    {
+      "name": "Respective DL’s",
+      "counter": "9",
+      "id": 4
+    },
+    {
+      "name": "Timesheet",
+      "counter": "20",
+      "id": 5
+    },
+    {
+      "name": "Reimbursements",
+      "counter": "100",
+      "id": 6
+    },
+    {
+      "name": "Installation",
+      "counter": "0",
+      "id": 7
+    }
+  ],
+  "queries": [
+    {
+      "id": 4,
+      "categoryId": "1",
+      "question": "Do I have to complete all the trainings available on my dashboard",
+      "answer": "These trainings are recommended to you based on project demands and your current skill set. You can decide on which training(s) to accept and make best possible utilization of your time and efforts to upgrade your skills.",
+      "counter": "0"
+    },
+    {
+      "id": 6,
+      "categoryId": "1",
+      "question": "What if I accept and cannot complete the trainings?",
+      "answer": "You can complete the accepted training later (if possible), or you can withdraw by giving appropriate reason (as the case may be).",
+      "counter": 0
+    },
+    {
+      "id": 7,
+      "categoryId": "1",
+      "question": "What if I withdraw and want to complete the training again?",
+      "answer": "You can send Rheav a mail stating the same.",
+      "counter": 0
+    },
+    {
+      "id": 11,
+      "categoryId": "4",
+      "question": "ES+ related queries",
+      "answer": "ESplusadmin@cybage.com",
+      "counter": "0"
+    },
+    {
+      "id": 12,
+      "categoryId": "1",
+      "question": "Some of the trainings are not relevant to my technology, can I decline them?",
+      "answer": "Yes, you can decline the trainings with appropriate reasons. You may see the same training again on your Dashboard if the skill comes in demand again for a certain project.",
+      "counter": 0
+    },
+    {
+      "id": 13,
+      "categoryId": "1",
+      "question": "What if I cannot complete it within the timeframe? ",
+      "answer": "You should complete a training within 1 year from the date of purchase or date of nomination, whichever is later",
+      "counter": 0
+    },
+    {
+      "categoryId": "9",
+      "question": "I need few installations to practice. Whom do I reach out to?",
+      "answer": "Please get in touch with the IS_Coordinator@cybage.com",
+      "counter": 0,
+      "id": 16
+    },
+    {
+      "id": 19,
+      "categoryId": "5",
+      "question": "Timesheet related queries",
+      "answer": "MIS -> My Personals ->Timesheet FAQs",
+      "counter": "0"
+    },
+    {
+      "id": 21,
+      "categoryId": "5",
+      "question": "Who will approve my timesheet?",
+      "answer": "It will be approved by the RMG team",
+      "counter": "0"
+    },
+    {
+      "id": 22,
+      "categoryId": "2",
+      "question": "How to access the courses for free on Coursera?",
+      "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
+      "counter": "0"
+    },
+    {
+      "categoryId": "2",
+      "question": "How to watch courses on YouTube without access?",
+      "answer": "You can complete the course on your phone.",
+      "counter": "0",
+      "id": 23
+    },
+    {
+      "categoryId": "3",
+      "question": "Unable to start the exam even after clicking it.",
+      "answer": "Please check for pop-up blocker which might have appeared. Request you to pen it, click on the allow access to appear for the test.",
+      "counter": "0",
+      "id": 24
+    },
+    {
+      "categoryId": "3",
+      "question": "Have not received the test mail",
+      "answer": "It may be the case that the question paper for the course is unavailable. The test will be scheduled after we receive the exam paper.",
+      "counter": "0",
+      "id": 25
+    },
+    {
+      "categoryId": "3",
+      "question": "How many attempts do we have for the test?",
+      "answer": "The test is open until you clear it",
+      "counter": "0",
+      "id": 26
+    },
+    {
+      "categoryId": "3",
+      "question": "Do we have to clear the exams before applying for reimbursements?",
+      "answer": "Yes, unless you clear the test, you cannot proceed with the reimbursement process.",
+      "counter": "0",
+      "id": 27
+    },
+    {
+      "categoryId": "4",
+      "question": "Timesheet",
+      "answer": "link to the MIS page",
+      "counter": "0",
+      "id": 28
+    },
+    {
+      "categoryId": "4",
+      "question": "HR",
+      "answer": "Reshma@cybage.com",
+      "counter": "0",
+      "id": 29
+    },
+    {
+      "categoryId": "4",
+      "question": "IS",
+      "answer": "IS_coordinator@cybage.com",
+      "counter": "0",
+      "id": 30
+    },
+    {
+      "categoryId": "4",
+      "question": "RMG",
+      "answer": "RMG@cybage.com",
+      "counter": "0",
+      "id": 31
+    },
+    {
+      "categoryId": "4",
+      "question": "Leaves related",
+      "answer": "Leave_admin@cybage.com",
+      "counter": "0",
+      "id": 32
+    },
+    {
+      "categoryId": "5",
+      "question": "If not yet approved Whom do, I reach out?",
+      "answer": "It will be auto approved.",
+      "counter": "0",
+      "id": 33
+    },
+    {
+      "categoryId": "5",
+      "question": "Do I submit my timesheet everyday – what if I fail to submit my timesheet?",
+      "answer": "It is mandatory to fill your timesheet everyday so as to fill in the exact hours spent on the trainings per day.",
+      "counter": "0",
+      "id": 34
+    },
+    {
+      "categoryId": "5",
+      "question": "If I Forget to submit the timesheet on Friday can I submit on Monday?",
+      "answer": "You may do it at the most on Monday morning, however submitting it on Friday is the ideal practice.",
+      "counter": "0",
+      "id": 35
+    },
+    {
+      "categoryId": "5",
+      "question": "If I am working the content hands on, what do I add in timesheet?",
+      "answer": "Please mention the exact time utilized for the hands on practice using appropriate options available in the dropdown.",
+      "counter": "0",
+      "id": 36
+    },
+    {
+      "categoryId": "5",
+      "question": "Does it have to be for 8 hours in the timesheet?",
+      "answer": "Please mention the exact hours spent on trainings in your timesheet. Using the TT/ST suggested",
+      "counter": "0",
+      "id": 37
+    },
+    {
+      "categoryId": "5",
+      "question": "\tCan I add any trainings that I complete independent of Cybage?",
+      "answer": "Yes, you can also add the hours spent on trainings which are not offered by Cybage",
+      "counter": "0",
+      "id": 38
+    },
+    {
+      "categoryId": "5",
+      "question": "Which TT/STT category to be used for recording my training hours in MIS timesheet?",
+      "answer": "Log all training related activities under the Unplanned Task category with Task Type: Training Activities and Sub-task Type: Org Training Attended",
+      "counter": "0",
+      "id": 39
+    },
+    {
+      "categoryId": "6",
+      "question": "\tWhat is the reimbursement process?",
+      "answer": "Reimbursement is applicable only for the “Reimbursable” courses. Once you complete an assigned course, you will be evaluated for the same. Post clearing the evaluation, you will see a “Reimburse” button on your Resource dashboard that you can use to submit your request. ",
+      "counter": "0",
+      "id": 40
+    },
+    {
+      "categoryId": "6",
+      "question": "\tHow much is the highest capping for reimbursements?",
+      "answer": "Please note that reimbursement is limited to INR 1000 for 30 days at a time and a maximum of INR 3000 in a single appraisal cycle (6 months). For more details, please refer the Reimbursement Process Guidelines.",
+      "counter": "0",
+      "id": 41
+    },
+    {
+      "categoryId": "6",
+      "question": "\tCan I get the reimbursement for the course purchased before it is offered to me on the Resource Dashboard?",
+      "answer": "No, the reimbursement is only applicable for the courses bought after it was offered to you.",
+      "counter": "0",
+      "id": 42
+    },
+    {
+      "categoryId": "6",
+      "question": "\tWhen can I apply for reimbursement? Is there any deadline for the same?",
+      "answer": "You can apply for reimbursement any time after completion of the offered course. (based on Reimbursement norms active at that time)",
+      "counter": "0",
+      "id": 43
+    },
+    {
+      "categoryId": "6",
+      "question": "For reimbursement, Do I have to pass the evaluation?",
+      "answer": "Yes, clearing the exam is mandatory for you to apply for a reimbursement.",
+      "counter": "0",
+      "id": 44
+    },
+    {
+      "categoryId": "6",
+      "question": "\tWhich documents do I upload for reimbursement? ",
+      "answer": "The Invoice copy of the course (Screenshots of Gpay will not be considered) and Completion certificate.",
+      "counter": "0",
+      "id": 45
+    },
+    {
+      "categoryId": "6",
+      "question": "\tIs Cybage mail ID mandatory to register for reimbursement? And what if I already registered?",
+      "answer": "Yes, using your Cybage email id to purchase courses on Udemy is mandatory. If you have registered using any other email id, please replace it with the Cybage id before purchasing the course.",
+      "counter": "0",
+      "id": 46
+    },
+    {
+      "categoryId": "6",
+      "question": "\tWhat if I accept the courses and fail to complete it after purchasing within 1 year? Will I be reimbursed?",
+      "answer": "You will not be able to avail the reimbursements for the trainings.",
+      "counter": "0",
+      "id": 47
+    },
+    {
+      "categoryId": "7",
+      "question": "\tI need few installations to practice. Whom do I reach out to?",
+      "answer": "Please get in touch with the IS_Coordinator@cybage.com",
+      "counter": "0",
+      "id": 48
+    },
+    {
+      "id": 49,
+      "categoryId": "7",
+      "question": "How to raise a ticket for installation and who will approve the ticket?",
+      "answer": "To raise a ticket PFB the path:\nCybintranet->Helpdesk->IS->New ticket.\nYour primary approver will be Veenita samal\n",
+      "counter": "0"
+    },
+    {
+      "categoryId": "1",
+      "question": "Can I complete the trainings outside my Cybage working hours?",
+      "answer": "Yes you can complete the trainings over and above the office hours.",
+      "counter": "0",
+      "id": 50
+    },
+    {
+      "categoryId": "1",
+      "question": "Can I add these hours in timesheet?",
+      "answer": "Yes you can add these trainings hours into the timesheet.",
+      "counter": "0",
+      "id": 51
+    },
+    {
+      "categoryId": "1",
+      "question": "Cannot see Dashboard from start?",
+      "answer": "Request you to send a mail to the PAL@cybage.com a mail looping rheav@cyabage.com ",
+      "counter": "0",
+      "id": 52
+    },
+    {
+      "categoryId": "1",
+      "question": "After getting into project how many days will I get to complete the trainings?",
+      "answer": "You will get 180 days to complete the trainings you have accepted, after getting into a project.",
+      "counter": "0",
+      "id": 53
+    },
+    {
+      "categoryId": "1",
+      "question": "Do I have to complete the trainings mentioned in the stipulated time period given in the course?",
+      "answer": "No, as this is a self-paced platform you can take reasonable amount of time to complete the course",
+      "counter": "0",
+      "id": 54
+    },
+    {
+      "categoryId": "1",
+      "question": "Can I request the courses of my choice, to be added onto my Resource Dashboard?",
+      "answer": "PAL is an automated system which recommends trainings based on Project Demands. Although we have a “Suggest a course” button, this does not guarantee that you will get your suggested course offered to you on your Resource Dashboard as it still considers if that skill is currently in demand. ",
+      "counter": "0",
+      "id": 55
+    },
+    {
+      "categoryId": "1",
+      "question": "What if the paid courses cost above 1000RS.?",
+      "answer": "Request you to get a prior approval from the training team before purchasing it. Also, try clearing your cache",
+      "counter": "0",
+      "id": 56
+    }
+  ],
+  "NewQueries": [
+    {
+      "id": 1,
+      "query": "How to apply leave?",
+      "email": "akshaypati@cybage.com"
+    },
+    {
+      "id": 2,
+      "query": "Do I have to complete the trainings mentioned in the stipulated time period given in the course?",
+      "email": "akshaypati@cybage.com"
+    }
+  ],
+  "admin": [
+    {
+      "username": "rheav@cybage.com",
+      "password": "cybage@123",
+      "id": 1
+    }
+  ]
+}

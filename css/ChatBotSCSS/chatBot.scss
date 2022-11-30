@@ -1,0 +1,303 @@
+/* CHATBOX
+=============== */
+.chatbox {
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+}
+
+/* CONTENT IS CLOSE */
+.chatbox__support {
+    flex-direction: column;
+    background: #ffffff;
+    width: 42vh;
+    z-index: -123456;
+    border: 1px solid rgba(24, 61, 126, 0.3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 0 1rem 0;
+    max-height: 27rem;
+    opacity: 0;
+    transition: all .09s ease-in-out;
+}
+
+// scroll effect
+.Chat-container {
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-right: 0;
+    padding-left: 0;
+
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(24, 61, 126, 0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: rgba(226, 226, 227, 0.147);
+    }
+}
+
+/* CONTENT ISOPEN */
+.chatbox--active {
+    z-index: 123456;
+    opacity: 1;
+}
+
+/* BUTTON */
+.chatbox__button {
+    text-align: right;
+}
+
+/* HEADER */
+.chatbox__header {
+    top: 0;
+    border-left: 1px solid rgb(24, 61, 126);
+    display: flex;
+    font-size: 1.206rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    justify-content: center;
+    background-color: rgb(24, 61, 126);
+    padding: 1rem 0 1rem 0;
+}
+
+#imgCybageLogo {
+    width: 85px;
+}
+
+/* MESSAGES */
+.message {
+    text-align: center;
+    // padding: 0.5rem 0 0 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.chatbox__messages {
+    font-size: 13px;
+}
+
+.message__item {
+    max-width: 60.6%;
+    margin: auto;
+    width: fit-content;
+}
+
+.messages__item--operator {
+    margin-left: auto;
+}
+
+.messages__item--visitor {
+    margin-right: auto;
+    padding-top: 0.5rem;
+}
+
+/* categories List */
+#categories-list {
+
+    margin: 0.5rem 0 .5rem 1rem;
+
+    .hidden {
+        display: none;
+    }
+
+    .show-more-button {
+        border-radius: 0.8rem;
+        margin-top: 0.3rem;
+        font-size: 13px !important;
+        line-height: 0.8;
+        color: #ffffff;
+        padding: 0.4rem !important;
+        width: 70% !important;
+        background-color: rgb(24, 61, 126);
+    }
+
+    .categories-list-item {
+        padding: 0.2rem;
+        text-align: center;
+        font-weight: 400;
+        width: 70%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        border-radius: 0.9rem;
+        margin-top: 0.35rem;
+    }
+}
+
+.cat-reply {
+    padding: auto;
+    margin: 0 !important;
+    display: flex !important;
+    align-content: end !important;
+
+
+    .reply-list-item {
+        background-color: #e8eaf6 !important;
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        text-align: center;
+        max-width: 70%;
+        width: max-content;
+        font-size: 13px;
+        font-weight: 400;
+        border-radius: 0.9rem !important;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        margin: 0.6rem 1rem 0 0;
+    }
+}
+
+// question list 
+#question-list {
+    margin: 0.5rem 0 0 1rem;
+
+    #cat-query-add {
+        border-radius: 0.8rem;
+        text-align: center;
+        margin-top: 0.3rem;
+        font-size: 13px !important;
+        line-height: 0.8;
+        color: #ffffff;
+        padding: 0.4rem !important;
+        width: 70% !important;
+        background-color: rgb(24, 61, 126);
+    }
+
+    .question-list-item {
+        padding: 0.2rem;
+        text-align: center;
+        font-weight: 400;
+        width: 70%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        margin-top: 0.35rem;
+        border-radius: 0.9rem;
+    }
+}
+
+.answer-list {
+    margin: 0.5rem 0 0 1rem;
+
+    .answer-list-item {
+        padding: 0.2rem;
+        text-align: center;
+        font-weight: 400;
+        width: 70%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        margin-top: 0.35rem;
+        border-radius: 0.9rem !important;
+    }
+}
+
+//feedback/tag
+#tag-item {
+    margin: 0 0 0 1rem;
+
+    #tag-questions {
+        text-align: center;
+        padding-top: 0.5rem;
+
+        .resp-list-item {
+            padding: 0.2rem;
+            text-align: center;
+            font-weight: 400;
+            width: 70%;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+            margin-top: 0.35rem;
+            cursor: text !important;
+            user-select: text;
+            border-radius: 1rem !important;
+        }
+    }
+
+    #tag-feedback {
+        padding: 0.25rem 0 0.25rem 0;
+    }
+
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.0;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+
+        #feedback-btn-select-menu {
+            margin-top: 0.5rem;
+        }
+
+        .btn {
+            border-radius: 0.8rem;
+            padding: 0.3rem !important;
+            margin-top: 0.3rem;
+            font-size: 13px !important;
+            line-height: 0.8;
+            background-color: rgb(24, 61, 126);
+        }
+    }
+}
+
+/* FOOTER */
+.chatbox__footer {
+    bottom: 0;
+    display: block;
+    padding-top: 1rem;
+    text-align: center;
+
+    input {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: 2px solid rgb(24, 61, 126);
+        font-size: 11px;
+
+
+        &::selection {
+            border: none;
+        }
+
+        input[type="text"] {
+            font-size: 11px;
+        }
+
+
+        &::placeholder {
+            text-align: center;
+            overflow: visible;
+            font-size: 11px;
+            align-self: center;
+        }
+    }
+
+    #cancelDiv {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.0;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+    button {
+        border-radius: 0.8rem;
+        padding: 0.3rem !important;
+        margin-top: 0.3rem;
+        font-size: 13px !important;
+        line-height: 0.8;
+        color: #ffffff;
+        background-color: rgb(24, 61, 126);
+    }
+
+}
+
+
+.content {
+    height: 100vh;
+    background-color: rgb(125, 147, 147);
+}
