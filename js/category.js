@@ -69,6 +69,7 @@ function getAllCategory() {
     });
 }
 
+
 function deleteCategory(it) {
   let text = "Are Your sure want to delete this category?";
   if (!confirm(text)) {
@@ -76,31 +77,38 @@ function deleteCategory(it) {
   } else {
     const i = it.value;
     id = d[i].id;
-    // if(deleteQueries(id))
-    {
-      $.ajax({
-        url: `http://172.27.94.225:3000/category/${id}`,
-        type: 'DELETE',
-        success: function (result) {
-          $('td').remove();
-          getAllCategory()
+    deleteQueries(id)// required to delete queries
 
-        }
-      });
-    }
+    $.ajax({
+      url: `http://172.27.94.225:3000/category/${id}`,
+      type: 'DELETE',
+      success: function (result) {
+        $('td').remove();
+        getAllCategory()
+
+      }
+    });
+
   }
 }
-function deleteQueries(id) {
-  $.ajax({
-    url: "http://172.27.94.225:3000/queries?categoryId=" + id,
-    type: 'DELETE',
-    success: function (result) {
-      $('td').remove();
 
-      return true;
+function deleteQueries(categoryId) {
+  $.getJSON("http://172.27.94.225:3000/queries?categoryId=" + categoryId,
+    function (data) {
+      $.each(data, function (key, value) {
+        $.ajax({
+          url: `http://172.27.94.225:3000/queries/${value.id}`,
+          type: 'DELETE',
+          success: function (result) {
 
-    }
-  });
+          }
+        });
+
+      });
+
+    })
+
+
 
 }
 
