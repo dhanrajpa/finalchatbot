@@ -63,7 +63,7 @@
         var dataLabels = "";
 
         $.each(data, function (entryindex, entry) {
-          dataSlices.push([entry['name'], entry['counter']]);
+          dataSlices.push([entry['name'], Number(entry['counter'])]);
           dataLabels = dataLabels + entry['name'];
         });
         options = {
