@@ -27,7 +27,7 @@
     },
     {
       "name": "Reimbursements",
-      "counter": "130",
+      "counter": "135",
       "id": 6
     },
     {
@@ -265,7 +265,7 @@
       "categoryId": "6",
       "question": "\tIs Cybage mail ID mandatory to register for reimbursement? And what if I already registered?",
       "answer": "Yes, using your Cybage email id to purchase courses on Udemy is mandatory. If you have registered using any other email id, please replace it with the Cybage id before purchasing the course.",
-      "counter": "4",
+      "counter": "5",
       "id": 46
     },
     {
