@@ -44,52 +44,48 @@
   <script type="text/javascript" src="./src/plugins/jqplot.json2.js"></script>
   <script type="text/javascript" src="./src/plugins/jqplot.pieRenderer.js"></script>
   <link rel="stylesheet" type="text/css" href="./src/jquery.jqplot.css" />
-
   <!-- akshay links -->
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <link rel="stylesheet" href="./css/home.css" />
   <link rel="stylesheet" href="./css/landingpage/lpage.css" />
 
-
   <!-- Pie_chart_Jquery -->
 
   <script>
     jQuery(document).ready(function () {
-      urlDataJSON = 'http://172.27.94.225:3000/category';
+      urlDataJSON = "http://172.27.94.225:3000/category";
 
       $.getJSON(urlDataJSON, "", function (data) {
         var dataSlices = [];
         var dataLabels = "";
 
         $.each(data, function (entryindex, entry) {
-          dataSlices.push([entry['name'], Number(entry['counter'])]);
-          dataLabels = dataLabels + entry['name'];
+          dataSlices.push([entry["name"], Number(entry["counter"])]);
+          dataLabels = dataLabels + entry["name"];
         });
         options = {
           legend: { show: true },
-          title: 'Category Usage',
+          title: "Category Usage",
           seriesDefaults: {
             // Make this a pie chart.
             renderer: jQuery.jqplot.PieRenderer,
             rendererOptions: {
               // Put data labels on the pie slices.
               // By default, labels show the percentage of the slice.
-              showDataLabels: true
-            }
-          }
-        }
-        var plot = $.jqplot('chartdiv', [dataSlices], options);
+              showDataLabels: true,
+            },
+          },
+        };
+        var plot = $.jqplot("chartdiv", [dataSlices], options);
       });
     });
-
   </script>
 </head>
 
 <body>
-
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <!-- <a class="navbar-brand text-dark fw-bold fs-1" href="#" style="padding: 10px">CYBAGE</a> -->
       <img src="https://www.cybage.com/sites/default/files/2021-09/Cybage_Logo_0.png" width="120px" height="60px" />
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -133,6 +129,7 @@
                 <th scope="col">Id</th>
                 <th scope="col">Queries</th>
                 <th scope="col">Email</th>
+                <th scope="col">Status</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
@@ -144,27 +141,19 @@
   <!-- The Modal -->
 
   <div class="border border-dark flex min-height">
-    <div class="col-sm-7 left fs-4 border border-dark  flex min-height " ;>
+    <div class="col-sm-7 left fs-4 border border-dark flex min-height" ;>
       <!-- <img src="https://th.bing.com/th/id/OIP.16gqbEbL8dvHtlafzy12cAHaHa?w=187&h=187&c=7&r=0&o=5&pid=1.7" alt="Girl in a jacket" width="800px" height="600" class="image-fit-to-div"> -->
       <!-- <img src="file:\D:\PracticeResource01\practice01\src\Chat_Bot\cybage_build.jpg" alt="Girl in a jacket" width="800px" height="600" class="image-fit-to-div"> -->
-      <div id="chartdiv" style="height:100%; width:100%;"></div>
-
+      <div id="chartdiv" style="height: 100%; width: 100%"></div>
     </div>
-    <div class="col-sm-5 right fs-4 border border-dark bg-light  adding-card flex">
-
-
-
-      <div id="mydiv11" class="width-card">
-
-      </div>
+    <div class="col-sm-5 right fs-4 border border-dark bg-light adding-card flex">
+      <div id="mydiv11" class="width-card"></div>
       <!-- Linking cards to the js file -->
       <script src="./js/landingPage.js"></script>
     </div>
   </div>
 
   <footer class="bg-dark text-center text-white">
-
-
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2020 Copyright:
       <a class="text-white fs-6" href="https://www.cybage.com/">cybage.com</a>
@@ -172,7 +161,6 @@
   </footer>
 
   <script src="./js/home.js"></script>
-
 </body>
 
 </html>

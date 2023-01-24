@@ -2,37 +2,37 @@
   "category": [
     {
       "name": "PAL Process and Dashboard ,",
-      "counter": "11",
+      "counter": "19",
       "id": 1
     },
     {
       "name": "Free Courses",
-      "counter": "5",
+      "counter": "133",
       "id": 2
     },
     {
       "name": "OES related queries",
-      "counter": "14",
+      "counter": "19",
       "id": 3
     },
     {
       "name": "Respective DL’s",
-      "counter": "9",
+      "counter": "11",
       "id": 4
     },
     {
       "name": "Timesheet",
-      "counter": "21",
+      "counter": "23",
       "id": 5
     },
     {
       "name": "Reimbursements",
-      "counter": "135",
+      "counter": "163",
       "id": 6
     },
     {
       "name": "new cat",
-      "counter": "2",
+      "counter": "26",
       "id": 7
     }
   ],
@@ -98,13 +98,13 @@
       "categoryId": "2",
       "question": "How to access the courses for free on Coursera?",
       "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
-      "counter": "0"
+      "counter": "52"
     },
     {
       "categoryId": "2",
       "question": "How to watch courses on YouTube without access?",
       "answer": "You can complete the course on your phone.",
-      "counter": "0",
+      "counter": "57",
       "id": 23
     },
     {
@@ -125,14 +125,14 @@
       "categoryId": "3",
       "question": "How many attempts do we have for the test?",
       "answer": "The test is open until you clear it",
-      "counter": "1",
+      "counter": "2",
       "id": 26
     },
     {
       "categoryId": "3",
       "question": "Do we have to clear the exams before applying for reimbursements?",
       "answer": "Yes, unless you clear the test, you cannot proceed with the reimbursement process.",
-      "counter": "0",
+      "counter": "2",
       "id": 27
     },
     {
@@ -160,14 +160,14 @@
       "categoryId": "4",
       "question": "RMG",
       "answer": "RMG@cybage.com",
-      "counter": "0",
+      "counter": "1",
       "id": 31
     },
     {
       "categoryId": "4",
       "question": "Leaves related",
       "answer": "Leave_admin@cybage.com",
-      "counter": "0",
+      "counter": "1",
       "id": 32
     },
     {
@@ -202,14 +202,14 @@
       "categoryId": "5",
       "question": "Does it have to be for 8 hours in the timesheet?",
       "answer": "Please mention the exact hours spent on trainings in your timesheet. Using the TT/ST suggested",
-      "counter": "0",
+      "counter": "1",
       "id": 37
     },
     {
       "categoryId": "5",
       "question": "\tCan I add any trainings that I complete independent of Cybage?",
       "answer": "Yes, you can also add the hours spent on trainings which are not offered by Cybage",
-      "counter": "0",
+      "counter": "1",
       "id": 38
     },
     {
@@ -230,7 +230,7 @@
       "categoryId": "6",
       "question": "\tHow much is the highest capping for reimbursements?",
       "answer": "Please note that reimbursement is limited to INR 1000 for 30 days at a time and a maximum of INR 3000 in a single appraisal cycle (6 months). For more details, please refer the Reimbursement Process Guidelines.",
-      "counter": "3",
+      "counter": "4",
       "id": 41
     },
     {
@@ -258,28 +258,28 @@
       "categoryId": "6",
       "question": "\tWhich documents do I upload for reimbursement? ",
       "answer": "The Invoice copy of the course (Screenshots of Gpay will not be considered) and Completion certificate.",
-      "counter": "0",
+      "counter": "4",
       "id": 45
     },
     {
       "categoryId": "6",
       "question": "\tIs Cybage mail ID mandatory to register for reimbursement? And what if I already registered?",
       "answer": "Yes, using your Cybage email id to purchase courses on Udemy is mandatory. If you have registered using any other email id, please replace it with the Cybage id before purchasing the course.",
-      "counter": "5",
+      "counter": "14",
       "id": 46
     },
     {
       "categoryId": "6",
       "question": "\tWhat if I accept the courses and fail to complete it after purchasing within 1 year? Will I be reimbursed?",
       "answer": "You will not be able to avail the reimbursements for the trainings.",
-      "counter": "5",
+      "counter": "13",
       "id": 47
     },
     {
       "categoryId": "7",
       "question": "\tI need few installations to practice. Whom do I reach out to?",
       "answer": "Please get in touch with the IS_Coordinator@cybage.com",
-      "counter": "0",
+      "counter": "3",
       "id": 48
     },
     {
@@ -287,7 +287,7 @@
       "categoryId": "7",
       "question": "How to raise a ticket for installation and who will approve the ticket?",
       "answer": "To raise a ticket PFB the path:\nCybintranet->Helpdesk->IS->New ticket.\nYour primary approver will be Veenita samal\n",
-      "counter": "0"
+      "counter": "16"
     },
     {
       "categoryId": "1",
@@ -321,7 +321,7 @@
       "categoryId": "1",
       "question": "Do I have to complete the trainings mentioned in the stipulated time period given in the course?",
       "answer": "No, as this is a self-paced platform you can take reasonable amount of time to complete the course",
-      "counter": "0",
+      "counter": "1",
       "id": 54
     },
     {
@@ -335,44 +335,79 @@
       "categoryId": "1",
       "question": "What if the paid courses cost above 1000RS.?",
       "answer": "Request you to get a prior approval from the training team before purchasing it. Also, try clearing your cache",
-      "counter": "0",
+      "counter": "3",
       "id": 56
     },
     {
       "categoryId": "7",
       "question": "what is pal?",
       "answer": "..",
-      "counter": "0",
+      "counter": "1",
       "id": 57
     },
     {
       "categoryId": "1",
       "question": "Hi Hello",
       "answer": "Hello Hi",
-      "counter": "1",
+      "counter": "4",
       "id": 58
+    },
+    {
+      "categoryId": "2",
+      "question": "test",
+      "answer": "test",
+      "counter": "15",
+      "id": 59
     }
   ],
   "NewQueries": [
     {
-      "id": 1,
-      "query": "How to apply leave?",
-      "email": "akshaypati@cybage.com"
-    },
-    {
-      "query": "fdsxdf",
-      "email": "fgjh",
+      "query": "need to pass evaluation?",
+      "email": "mahesh@cybage.com",
       "id": 2
     },
     {
-      "query": "gkb  ",
-      "email": " asas ",
+      "query": "reembessment documents ?",
+      "email": "adityapat@cybage.com",
       "id": 3
     },
     {
-      "query": "fdfgdfg",
-      "email": "dfgd",
+      "query": "test",
+      "email": "test",
+      "status": "New",
+      "id": 8
+    }
+  ],
+  "feedBack": [
+    {
+      "rating": "4",
+      "empId": "11",
+      "id": 1
+    },
+    {
+      "rating": "4",
+      "empId": "",
+      "id": 2
+    },
+    {
+      "rating": "4",
+      "empId": "22",
+      "id": 3
+    },
+    {
+      "rating": "4",
+      "empId": "111",
       "id": 4
+    },
+    {
+      "rating": "3",
+      "empId": "234",
+      "id": 5
+    },
+    {
+      "rating": "4",
+      "empId": "124",
+      "id": 6
     }
   ],
   "admin": [
