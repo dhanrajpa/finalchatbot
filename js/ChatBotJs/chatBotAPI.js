@@ -4,10 +4,9 @@
  * @param {categoryId} category id  
  * *API's created 
  */
-// import { feedBack } from "./feedBack";
 let jsondata = "";
 let category = "";
-let arrayName // url api 
+let arrayName // url api array name stored
 
 let catId;
 let CatQuestId;
@@ -87,9 +86,9 @@ const addCounter = async (id, arrayName) => {
 const showMoreCat = (e) => {
     const hiddenItems = document.querySelectorAll('.hidden-item');
     hiddenItems.forEach(item => item.classList.toggle('hidden'));
-    e.target.onclick = false
-    document.querySelector(".show-more-button").remove()
-    scrollToBottom('.Chat-container');
+    e.target.onclick = false;
+    document.querySelector(".show-more-button").remove();
+    // scrollToBottom('.Chat-container');
 }
 
 //getFeedback
@@ -99,6 +98,7 @@ const getFeedBack = async () => {
     let rate = data['rating'];
     return rate;
 }
+
 //end
 async function createFeedbackElem(answerText) {
     let newCat = document.createElement("a");
@@ -127,6 +127,7 @@ async function createFeedbackElem(answerText) {
 
     // answerTag();
 }
+
 //feedback'
 const submitFeedback = async (e) => {
     let empIdValue = document.getElementById("queryText");
@@ -161,10 +162,7 @@ const submitFeedback = async (e) => {
 
     createFeedbackElem("Thanks for sharing your feedback")
     createCatList();
-
-
 }
-
 
 const tagEmpIdFb = () => {
     let div = document.createElement("div");
@@ -348,11 +346,18 @@ async function createCatQuesList(cat_question) {
     let questDiv1 = document.createElement("div");
     questDiv1.classList.add("list-group", "row", "questions-list");
     questDiv1.id = "question-list";
+    let countQuesElem = 0
 
     cat_question.map((cat) => {
         let newCat = document.createElement("a");
         newCat.href = "#";
-        newCat.classList.add("list-group-item", "list-group-item-action", "question-list-item");
+
+        if (countQuesElem < 4) {
+            newCat.classList.add("list-group-item", "list-group-item-action", "question-list-item");
+        } else {
+            newCat.classList.add("list-group-item", "list-group-item-action", "question-list-item", "hidden-item", "hidden");
+        }
+        countQuesElem = countQuesElem + 1;
         newCat.id = `question - item - ${cat.id}`;
         newCat.innerHTML = `${cat.question}`;
         newCat.onclick = answerList;
@@ -360,11 +365,18 @@ async function createCatQuesList(cat_question) {
         questDiv1.appendChild(newCat);
     })
 
+    let showMore = document.createElement("a");
+    showMore.classList.add("show-more-button", "list-group-item", "list-group-item-action", "question-list-item");
+    showMore.innerHTML = "+more"
+    showMore.href = "#";
+    showMore.onclick = showMoreCat
+    questDiv1.appendChild(showMore);
+
     // write query 
     let queryElem = document.createElement("a");
     queryElem.href = "#";
     queryElem.classList.add("list-group-item", "list-group-item-action", "question-list-item");
-    queryElem.id = `cat - query - add`;
+    queryElem.id = `cat-query-add`;
     queryElem.innerHTML = `Add your query`;
     questDiv1.appendChild(queryElem);
 
@@ -466,7 +478,6 @@ const postQuery = async (e) => {
 
         console.log("into send function if ");
 
-
         const postData = {
             query: query,
             email: email,
@@ -497,6 +508,7 @@ const postQuery = async (e) => {
     }
 
 }
+
 const cancel = (e) => {
 
     document.getElementById("query-msg-tag").remove();
@@ -506,7 +518,6 @@ const cancel = (e) => {
 
 const queryWrite = (e) => {
     // remove feedback
-
 
     queryTag();
 
@@ -578,7 +589,6 @@ const queryWrite = (e) => {
             send.onclick = postQuery;
             cancelDiv.appendChild(send);
             scrollToBottom('.Chat-container');
-
         }
 
     }
@@ -781,7 +791,6 @@ const replyElem = (text) => {
 
 //response question List
 const anchorPressed = async (e) => {
-    // let tagId = e.target.id; // Get ID of Clicked Element;
     let text = e.target.innerHTML; // Get innerText of Clicked Element;
     catId = e.currentTarget.getAttribute('data-id');
     arrayName = `category`;
@@ -799,7 +808,6 @@ const anchorPressed = async (e) => {
     //     }
     // }
     //end
-
 
     //categories question**********************
     cat_questions = await getCatQuestions(catId);

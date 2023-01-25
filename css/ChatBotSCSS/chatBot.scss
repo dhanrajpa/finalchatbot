@@ -106,7 +106,7 @@
     margin: 0.5rem 0 .5rem 1rem;
 
     .hidden {
-        display: none;
+        display: none
     }
 
     .show-more-button {
@@ -156,6 +156,10 @@
 #question-list {
     margin: 0.5rem 0 0 1rem;
 
+    .hidden {
+        display: none
+    }
+
     #cat-query-add {
         border-radius: 0.8rem;
         text-align: center;
@@ -176,6 +180,17 @@
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
         margin-top: 0.35rem;
         border-radius: 0.9rem;
+    }
+
+    .show-more-button {
+        border-radius: 0.8rem;
+        margin-top: 0.3rem;
+        font-size: 13px !important;
+        line-height: 0.8;
+        color: #ffffff;
+        padding: 0.4rem !important;
+        width: 70% !important;
+        background-color: rgb(24, 61, 126);
     }
 }
 
