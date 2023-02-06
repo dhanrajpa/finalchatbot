@@ -31,7 +31,17 @@ let newQuery = "http://172.27.94.225:3000/NewQueries"
 const scrollToBottom = (elem) => {
     let el = document.querySelector(elem);
     el.scrollTop = el.scrollHeight;
+
 }
+const scrollToTop = (elem) => {
+    // elem.scrollIntoView()
+    let el = document.querySelector(elem);
+    // el.scrollToBottom = el.scrollHeight;
+    el.style.scroll = ` top: 0 `
+    el.scrollTop = 0;
+    console.log("scroll top invoked");
+}
+
 
 // get categories
 const getCateg = async (url) => {
@@ -58,7 +68,7 @@ const getCounter = async (arrayName, id) => {
 }
 
 const addCounter = async (id, arrayName) => {
-    console.log(arrayName);
+    // console.log(arrayName);
     let url = `http://172.27.94.225:3000/${arrayName}/${id}`
 
     let count = await getCounter(arrayName, id)
@@ -69,7 +79,7 @@ const addCounter = async (id, arrayName) => {
         counter: counter.toString(),
     };
 
-    console.log(JSON.stringify(postData));
+    // console.log(JSON.stringify(postData));
     // Post Query API
     await fetch(url,
         {
@@ -81,14 +91,13 @@ const addCounter = async (id, arrayName) => {
         })
     // const data = await res.json(); 1
 }
-//end
 
 const showMoreCat = (e) => {
     const hiddenItems = document.querySelectorAll('.hidden-item');
     hiddenItems.forEach(item => item.classList.toggle('hidden'));
     e.target.onclick = false;
+
     document.querySelector(".show-more-button").remove();
-    // scrollToBottom('.Chat-container');
 }
 
 //getFeedback
@@ -133,11 +142,11 @@ const submitFeedback = async (e) => {
     let empIdValue = document.getElementById("queryText");
     //get rating value
     let eId = empIdValue.value;
-    console.log("empID", eId);
-    console.log("value of star", FeedbackRating);
+    // console.log("empID", eId);
+    // console.log("value of star", FeedbackRating);
     //get stored rating
     //check type
-    console.log("type check");
+    // console.log("type check");
 
     const postRate = {
         rating: FeedbackRating.toString(),
@@ -153,7 +162,7 @@ const submitFeedback = async (e) => {
             },
             body: JSON.stringify(postRate)
         })
-    console.log("feedBack Submitted");
+    // console.log("feedBack Submitted");
 
     //remove feedback elements
 
@@ -226,7 +235,7 @@ const removeElemFb = (e) => {
     scrollToBottom('.Chat-container');
 
     //end
-    console.log("feedback element remove");
+    // console.log("feedback element remove");
 }
 
 const feedBack = () => {
@@ -287,7 +296,6 @@ const feedBack = () => {
 const createCatList = async () => {
 
     category = await getCateg(fetch_Category)
-    console.log(category);
     catTag()
 
     //category sort on counter
@@ -318,7 +326,6 @@ const createCatList = async () => {
         catDiv1.appendChild(newCat);
     })
 
-    console.log(catDiv1);
     let showMore = document.createElement("a");
     showMore.classList.add("show-more-button", "list-group-item", "list-group-item-action", "categories-list-item");
     showMore.innerHTML = "Show More"
@@ -338,8 +345,36 @@ const createCatList = async () => {
     scrollToBottom('.Chat-container');
 
 }
+//scroll on top of category
+
+const scrollToTopCat = () => {
+    let icon = document.createElement("img");
+    icon.id = "icon-detail-preview";
+    icon.style.width = "20px";
+    let path = "../../images/scrollTOpIcon.png"
+    icon.setAttribute("src", path);
+
+    icon.onclick = (e) => {
+        console.log("scroll Top");
+        let div = document.getElementById("categories-list");
+        div.scrollIntoView();
+        e.target.onclick = false;
+        document.getElementById("scrollTopDiv").remove()
+    }
+
+    icon.style.cursor = "pointer";
+    let iconDiv = document.createElement("div");
+    iconDiv.id = "scrollTopDiv"
+    iconDiv.appendChild(icon)
+
+    botBox.appendChild(iconDiv);
+
+    scrollToBottom(".Chat-container")
+    console.log("into scroll top category");
+}
 
 //question list 
+
 async function createCatQuesList(cat_question) {
     questionTag();
 
@@ -398,6 +433,8 @@ async function createCatQuesList(cat_question) {
     questDiv3.appendChild(questDiv2)
     botBox.appendChild(questDiv3)
     scrollToBottom('.Chat-container');
+
+    scrollToTopCat()
 }
 
 //Answer Element
@@ -458,8 +495,6 @@ const LastMessage = () => {
 
 const postQuery = async (e) => {
     e.preventDefault();
-    console.log("into send");
-
     email = document.getElementById("queryText").value;
     let errorQuery = document.createElement("span");
     errorQuery.classList.add("error");
@@ -476,7 +511,7 @@ const postQuery = async (e) => {
 
     if (!check) {
 
-        console.log("into send function if ");
+        // console.log("into send function if ");
 
         const postData = {
             query: query,

@@ -49,6 +49,16 @@
   background-color: rgba(226, 226, 227, 0.147);
 }
 
+.Chat-container #scrollTopDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 9895495;
+}
+
 /* CONTENT ISOPEN */
 .chatbox--active {
   z-index: 123456;
