@@ -150,7 +150,8 @@ const submitFeedback = async (e) => {
 
     const postRate = {
         rating: FeedbackRating.toString(),
-        empId: eId.toString()
+        empId: eId.toString(),
+        categoryId: catId.toString()
     };
 
     // Post Query API
@@ -345,6 +346,7 @@ const createCatList = async () => {
     scrollToBottom('.Chat-container');
 
 }
+
 //scroll on top of category
 
 const scrollToTopCat = () => {
@@ -365,7 +367,7 @@ const scrollToTopCat = () => {
     icon.style.cursor = "pointer";
     let iconDiv = document.createElement("div");
     iconDiv.id = "scrollTopDiv"
-    
+
     iconDiv.appendChild(icon)
 
     botBox.appendChild(iconDiv);
@@ -517,7 +519,8 @@ const postQuery = async (e) => {
         const postData = {
             query: query,
             email: email,
-            status: "New"
+            status: "New",
+            categoryId: catId.toString()
         };
         // Post Query API
         // const res =

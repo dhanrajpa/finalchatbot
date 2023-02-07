@@ -7,17 +7,17 @@
     },
     {
       "name": "Free Courses",
-      "counter": "139",
+      "counter": "147",
       "id": 2
     },
     {
       "name": "OES related queries",
-      "counter": "19",
+      "counter": "20",
       "id": 3
     },
     {
       "name": "Respective DL’s",
-      "counter": "12",
+      "counter": "13",
       "id": 4
     },
     {
@@ -98,13 +98,13 @@
       "categoryId": "2",
       "question": "How to access the courses for free on Coursera?",
       "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
-      "counter": "53"
+      "counter": "54"
     },
     {
       "categoryId": "2",
       "question": "How to watch courses on YouTube without access?",
       "answer": "You can complete the course on your phone.",
-      "counter": "57",
+      "counter": "60",
       "id": 23
     },
     {
@@ -167,7 +167,7 @@
       "categoryId": "4",
       "question": "Leaves related",
       "answer": "Leave_admin@cybage.com",
-      "counter": "1",
+      "counter": "2",
       "id": 32
     },
     {
@@ -384,12 +384,34 @@
       "email": "daad",
       "status": "New",
       "id": 9
+    },
+    {
+      "query": "d",
+      "email": "ASDSAD",
+      "status": "New",
+      "categoryId": "2",
+      "id": 10
+    },
+    {
+      "query": "FSA",
+      "email": "SASAAS",
+      "status": "New",
+      "categoryId": "2",
+      "id": 11
+    },
+    {
+      "query": "DFSADSSD",
+      "email": "364436364",
+      "status": "New",
+      "categoryId": "2",
+      "id": 12
     }
   ],
   "feedBack": [
     {
       "rating": "4",
       "empId": "11",
+      "categoryId": "1",
       "id": 1
     },
     {
@@ -415,12 +437,45 @@
     {
       "rating": "4",
       "empId": "124",
+      "catId": "3",
       "id": 6
     },
     {
       "rating": "3",
       "empId": "444",
       "id": 7
+    },
+    {
+      "rating": "4",
+      "empId": "",
+      "id": 8
+    },
+    {
+      "rating": "4",
+      "empId": "888",
+      "id": 9
+    },
+    {
+      "rating": "3",
+      "empId": "888",
+      "id": 10
+    },
+    {
+      "rating": "2",
+      "empId": "22",
+      "id": 11
+    },
+    {
+      "rating": "4",
+      "empId": "553353",
+      "categoryId": "3",
+      "id": 12
+    },
+    {
+      "rating": "4",
+      "empId": "7777",
+      "categoryId": "2",
+      "id": 13
     }
   ],
   "admin": [
