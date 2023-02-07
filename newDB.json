@@ -2,12 +2,12 @@
   "category": [
     {
       "name": "PAL Process and Dashboard ,",
-      "counter": "20",
+      "counter": "23",
       "id": 1
     },
     {
       "name": "Free Courses",
-      "counter": "136",
+      "counter": "139",
       "id": 2
     },
     {
@@ -98,7 +98,7 @@
       "categoryId": "2",
       "question": "How to access the courses for free on Coursera?",
       "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
-      "counter": "52"
+      "counter": "53"
     },
     {
       "categoryId": "2",
@@ -364,11 +364,13 @@
     {
       "query": "need to pass evaluation?",
       "email": "mahesh@cybage.com",
+      "status": "In Progress",
       "id": 2
     },
     {
       "query": "reembessment documents ?",
       "email": "adityapat@cybage.com",
+      "status": "In Progress",
       "id": 3
     },
     {
@@ -376,6 +378,12 @@
       "email": "test",
       "status": "New",
       "id": 8
+    },
+    {
+      "query": "dDSd",
+      "email": "daad",
+      "status": "New",
+      "id": 9
     }
   ],
   "feedBack": [
@@ -408,6 +416,11 @@
       "rating": "4",
       "empId": "124",
       "id": 6
+    },
+    {
+      "rating": "3",
+      "empId": "444",
+      "id": 7
     }
   ],
   "admin": [

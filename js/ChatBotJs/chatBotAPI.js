@@ -349,7 +349,7 @@ const createCatList = async () => {
 
 const scrollToTopCat = () => {
     let icon = document.createElement("img");
-    icon.id = "icon-detail-preview";
+    // icon.id = "icon-detail-preview";
     icon.style.width = "20px";
     let path = "../../images/scrollTOpIcon.png"
     icon.setAttribute("src", path);
@@ -365,6 +365,7 @@ const scrollToTopCat = () => {
     icon.style.cursor = "pointer";
     let iconDiv = document.createElement("div");
     iconDiv.id = "scrollTopDiv"
+    
     iconDiv.appendChild(icon)
 
     botBox.appendChild(iconDiv);
