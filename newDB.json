@@ -7,7 +7,7 @@
     },
     {
       "name": "Free Courses",
-      "counter": "147",
+      "counter": "152",
       "id": 2
     },
     {
@@ -98,7 +98,7 @@
       "categoryId": "2",
       "question": "How to access the courses for free on Coursera?",
       "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
-      "counter": "54"
+      "counter": "57"
     },
     {
       "categoryId": "2",
@@ -476,6 +476,23 @@
       "empId": "7777",
       "categoryId": "2",
       "id": 13
+    },
+    {
+      "rating": "4",
+      "empId": "274039",
+      "id": 14
+    },
+    {
+      "rating": "4",
+      "empId": "2703999",
+      "categoryId": "2",
+      "id": 15
+    },
+    {
+      "rating": "4",
+      "empId": "27845",
+      "categoryId": "2",
+      "id": 16
     }
   ],
   "admin": [
