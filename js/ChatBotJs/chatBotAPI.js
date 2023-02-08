@@ -349,32 +349,32 @@ const createCatList = async () => {
 
 //scroll on top of category
 
-const scrollToTopCat = () => {
-    let icon = document.createElement("img");
-    // icon.id = "icon-detail-preview";
-    icon.style.width = "20px";
-    let path = "../../images/scrollTOpIcon.png"
-    icon.setAttribute("src", path);
+// const scrollToTopCat = () => {
+//     let icon = document.createElement("img");
+//     // icon.id = "icon-detail-preview";
+//     icon.style.width = "20px";
+//     let path = "../../images/scrollTOpIcon.png"
+//     icon.setAttribute("src", path);
 
-    icon.onclick = (e) => {
-        console.log("scroll Top");
-        let div = document.getElementById("categories-list");
-        div.scrollIntoView();
-        e.target.onclick = false;
-        document.getElementById("scrollTopDiv").remove()
-    }
+//     icon.onclick = (e) => {
+//         console.log("scroll Top");
+//         let div = document.getElementById("categories-list");
+//         div.scrollIntoView();
+//         e.target.onclick = false;
+//         document.getElementById("scrollTopDiv").remove()
+//     }
 
-    icon.style.cursor = "pointer";
-    let iconDiv = document.createElement("div");
-    iconDiv.id = "scrollTopDiv"
+//     icon.style.cursor = "pointer";
+//     let iconDiv = document.createElement("div");
+//     iconDiv.id = "scrollTopDiv"
 
-    iconDiv.appendChild(icon)
+//     iconDiv.appendChild(icon)
 
-    botBox.appendChild(iconDiv);
+//     botBox.appendChild(iconDiv);
 
-    scrollToBottom(".Chat-container")
-    console.log("into scroll top category");
-}
+//     scrollToBottom(".Chat-container")
+//     console.log("into scroll top category");
+// }
 
 //question list 
 
@@ -437,7 +437,7 @@ async function createCatQuesList(cat_question) {
     botBox.appendChild(questDiv3)
     scrollToBottom('.Chat-container');
 
-    scrollToTopCat()
+    // scrollToTopCat()
 }
 
 //Answer Element
@@ -883,9 +883,58 @@ const answerList = async (e) => {
 }
 
 async function main() {
-
     createCatList();
 }
 
 main();
 
+
+
+/**
+ * @CATEGORY_ID
+ * @FEEDBACK_RATING API fetch
+ */
+
+
+
+//get category id and avg feedback rating
+
+
+const getFeedBackQuestions = async (id) => {
+    let responseFB = await fetch(`http://172.27.94.225:3000/feedback`);
+    let responseCat = await fetch(`http://172.27.94.225:3000/category`);
+
+    let data = await responseFB.json()
+    let data1 = await responseCat.json()
+
+    let count = 0
+    // let result = data.filter((d) => {
+    //     // console.log(index);
+    //     count++
+    //     return parseInt(d.categoryId) == data1[1].id
+
+
+    // })
+
+    let a = []
+
+
+
+    if (parseInt(d.id) == data[key].categoryId) {
+        let obj = {
+            rating: d.rating,
+            catId: d.categoryId,
+            catName: data1[key].name
+
+        }
+        a.append(obj)
+        console.log(obj);
+    }
+
+    console.log(a);
+
+
+    return console.log(result);
+}
+// 
+getFeedBackQuestions()

@@ -2,17 +2,17 @@
   "category": [
     {
       "name": "PAL Process and Dashboard ,",
-      "counter": "23",
+      "counter": "24",
       "id": 1
     },
     {
       "name": "Free Courses",
-      "counter": "152",
+      "counter": "161",
       "id": 2
     },
     {
       "name": "OES related queries",
-      "counter": "20",
+      "counter": "21",
       "id": 3
     },
     {
@@ -98,7 +98,7 @@
       "categoryId": "2",
       "question": "How to access the courses for free on Coursera?",
       "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
-      "counter": "57"
+      "counter": "60"
     },
     {
       "categoryId": "2",
@@ -118,7 +118,7 @@
       "categoryId": "3",
       "question": "Have not received the test mail",
       "answer": "It may be the case that the question paper for the course is unavailable. The test will be scheduled after we receive the exam paper.",
-      "counter": "0",
+      "counter": "1",
       "id": 25
     },
     {
@@ -286,7 +286,7 @@
       "id": 49,
       "categoryId": "7",
       "question": "How to raise a ticket for installation and who will approve the ticket?",
-      "answer": "To raise a ticket PFB the path:\nCybintranet->Helpdesk->IS->New ticket.\nYour primary approver will be Veenita samal\n",
+      "answer": "To raise a ticket PFB the path:\n Cybintranet->Helpdesk->IS->New ticket.\nYour primary approver will be Veenita samal\n",
       "counter": "16"
     },
     {
@@ -321,7 +321,7 @@
       "categoryId": "1",
       "question": "Do I have to complete the trainings mentioned in the stipulated time period given in the course?",
       "answer": "No, as this is a self-paced platform you can take reasonable amount of time to complete the course",
-      "counter": "1",
+      "counter": "2",
       "id": 54
     },
     {
@@ -356,35 +356,11 @@
       "categoryId": "2",
       "question": "test",
       "answer": "test",
-      "counter": "15",
+      "counter": "16",
       "id": 59
     }
   ],
   "NewQueries": [
-    {
-      "query": "need to pass evaluation?",
-      "email": "mahesh@cybage.com",
-      "status": "In Progress",
-      "id": 2
-    },
-    {
-      "query": "reembessment documents ?",
-      "email": "adityapat@cybage.com",
-      "status": "In Progress",
-      "id": 3
-    },
-    {
-      "query": "test",
-      "email": "test",
-      "status": "New",
-      "id": 8
-    },
-    {
-      "query": "dDSd",
-      "email": "daad",
-      "status": "New",
-      "id": 9
-    },
     {
       "query": "d",
       "email": "ASDSAD",
@@ -405,6 +381,26 @@
       "status": "New",
       "categoryId": "2",
       "id": 12
+    },
+    {
+      "query": "GVFHGV",
+      "email": "FDCFGHC",
+      "status": "New",
+      "categoryId": "2",
+      "id": 13
+    },
+    {
+      "query": "TRHTRT",
+      "email": "RERWER",
+      "status": "New",
+      "categoryId": "2",
+      "id": 14
+    },
+    {
+      "query": "ffff",
+      "email": "ggggg",
+      "status": "In Progress",
+      "id": 16
     }
   ],
   "feedBack": [
@@ -413,57 +409,6 @@
       "empId": "11",
       "categoryId": "1",
       "id": 1
-    },
-    {
-      "rating": "4",
-      "empId": "",
-      "id": 2
-    },
-    {
-      "rating": "4",
-      "empId": "22",
-      "id": 3
-    },
-    {
-      "rating": "4",
-      "empId": "111",
-      "id": 4
-    },
-    {
-      "rating": "3",
-      "empId": "234",
-      "id": 5
-    },
-    {
-      "rating": "4",
-      "empId": "124",
-      "catId": "3",
-      "id": 6
-    },
-    {
-      "rating": "3",
-      "empId": "444",
-      "id": 7
-    },
-    {
-      "rating": "4",
-      "empId": "",
-      "id": 8
-    },
-    {
-      "rating": "4",
-      "empId": "888",
-      "id": 9
-    },
-    {
-      "rating": "3",
-      "empId": "888",
-      "id": 10
-    },
-    {
-      "rating": "2",
-      "empId": "22",
-      "id": 11
     },
     {
       "rating": "4",
@@ -493,6 +438,54 @@
       "empId": "27845",
       "categoryId": "2",
       "id": 16
+    },
+    {
+      "rating": "4",
+      "empId": "9797",
+      "categoryId": "2",
+      "id": 17
+    },
+    {
+      "rating": "2",
+      "empId": "000999",
+      "categoryId": "2",
+      "id": 18
+    },
+    {
+      "rating": "4",
+      "empId": "1111",
+      "categoryId": "2",
+      "id": 19
+    },
+    {
+      "rating": "3",
+      "empId": "78u",
+      "categoryId": "2",
+      "id": 20
+    },
+    {
+      "rating": "3",
+      "empId": "98009",
+      "categoryId": "1",
+      "id": 21
+    },
+    {
+      "rating": "3",
+      "empId": "654",
+      "categoryId": "2",
+      "id": 22
+    },
+    {
+      "rating": "4",
+      "empId": "7886",
+      "categoryId": "2",
+      "id": 23
+    },
+    {
+      "rating": "4",
+      "empId": "65r66",
+      "categoryId": "2",
+      "id": 24
     }
   ],
   "admin": [
