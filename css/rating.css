@@ -1,0 +1,12 @@
+.container {
+    margin-top: 50px;
+}
+
+nav {
+    background-color: rgb(65, 160, 192);
+}
+
+#Table-Data {
+    margin-top: 3rem;
+    width: 70%;
+}

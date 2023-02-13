@@ -63,3 +63,7 @@ nav {
   float: right;
   margin-bottom: 10px;
 }
+
+#tags {
+  display: flex;
+}

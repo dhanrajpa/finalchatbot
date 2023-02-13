@@ -10,8 +10,7 @@ const getFeedBackQuestions = async () => {
 
     for (i = 0; i < data1.length; i++) {
         //avg creation 
-        let count = 0
-
+        let count = 0;
         result =
             data.filter((d) => {
                 return d.categoryName == data1[i].name
@@ -41,9 +40,68 @@ const getFeedBackQuestions = async () => {
     //end Onject creation avg rating
 
 
+
     console.table(a)
 
-    
+    let Div = document.getElementById("Table-Data");
+    Div.classList.add("container")
+    let table = document.createElement('table')
+    table.id = "table";
+    table.classList.add("table", "table-striped");
+    Div.appendChild(table)
+
+    let tbody = document.createElement("tbody")
+    table.appendChild(tbody);
+
+    let row = document.createElement("tr");
+    row.classList.add("thead", "table-dark")
+    tbody.appendChild(row);
+
+    let head1 = document.createElement("th");
+    head1.innerHTML = "Sr .No"
+    row.appendChild(head1)
+
+    let head2 = document.createElement("th");
+    head2.innerHTML = "Category"
+    row.appendChild(head2)
+
+    let head3 = document.createElement("th");
+    head3.innerHTML = "Avgerage Rating"
+    row.appendChild(head3)
+
+
+
+    a.map((data, key) => {
+
+        //table element creation
+        let row1 = document.createElement("tr");
+        tbody.appendChild(row1)
+
+
+        let td1 = document.createElement("td");
+        td1.innerHTML = `${key + 1}`
+
+
+        let td2 = document.createElement("td");
+        td2.innerHTML = `${data.catName}`
+
+        let td3 = document.createElement("td");
+        td3.innerHTML = `${data.avgRating}`
+
+        row1.appendChild(td1)
+        row1.appendChild(td2)
+        row1.appendChild(td3)
+
+
+
+
+
+
+
+
+    })
+
+
 
 
     // return console.log(result);
