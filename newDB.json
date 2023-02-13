@@ -2,12 +2,12 @@
   "category": [
     {
       "name": "PAL Process and Dashboard ,",
-      "counter": "25",
+      "counter": "26",
       "id": 1
     },
     {
       "name": "Free Courses",
-      "counter": "176",
+      "counter": "177",
       "id": 2
     },
     {
@@ -365,35 +365,35 @@
       "query": "d",
       "email": "ASDSAD",
       "status": "New",
-      "categoryId": "2",
+      "categoryName": "PAL Process and Dashboard ,",
       "id": 10
     },
     {
       "query": "FSA",
       "email": "SASAAS",
       "status": "New",
-      "categoryId": "2",
+      "categoryName": "PAL Process and Dashboard ,",
       "id": 11
     },
     {
       "query": "DFSADSSD",
       "email": "364436364",
       "status": "New",
-      "categoryId": "2",
+      "categoryName": "PAL Process and Dashboard ,",
       "id": 12
     },
     {
       "query": "GVFHGV",
       "email": "FDCFGHC",
       "status": "New",
-      "categoryId": "2",
+      "categoryName": "PAL Process and Dashboard ,",
       "id": 13
     },
     {
       "query": "TRHTRT",
       "email": "RERWER",
       "status": "New",
-      "categoryId": "2",
+      "categoryName": "PAL Process and Dashboard ,",
       "id": 14
     },
     {
@@ -401,6 +401,13 @@
       "email": "ggggg",
       "status": "In Progress",
       "id": 16
+    },
+    {
+      "query": "dadfs",
+      "email": "ads",
+      "status": "New",
+      "categoryName": "PAL Process and Dashboard ,",
+      "id": 17
     }
   ],
   "feedBack": [

@@ -484,7 +484,7 @@ const postQuery = async (e) => {
             query: query,
             email: email,
             status: "New",
-            categoryId: catId.toString()
+            categoryName: text
         };
         // Post Query API
         // const res =

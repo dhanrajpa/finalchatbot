@@ -14,6 +14,7 @@ const fetchQuestion = async () => {
 
         queries += "<tbody><tr>";
         queries += "<td>" + (key + 1) + "</td>";
+        queries += "<td>" + value.categoryName + "</td>";
         queries += "<td>" + value.query + "</td>";
         queries += "<td>" + value.email + "</td>";
         queries += "<td>" + value.status + "</td>";
