@@ -2,22 +2,22 @@
   "category": [
     {
       "name": "PAL Process and Dashboard ,",
-      "counter": "24",
+      "counter": "25",
       "id": 1
     },
     {
       "name": "Free Courses",
-      "counter": "161",
+      "counter": "176",
       "id": 2
     },
     {
       "name": "OES related queries",
-      "counter": "21",
+      "counter": "23",
       "id": 3
     },
     {
       "name": "Respective DL’s",
-      "counter": "13",
+      "counter": "15",
       "id": 4
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Reimbursements",
-      "counter": "163",
+      "counter": "165",
       "id": 6
     },
     {
@@ -56,7 +56,7 @@
       "categoryId": "4",
       "question": "ES+ related queries",
       "answer": "ESplusadmin@cybage.com",
-      "counter": "0"
+      "counter": "1"
     },
     {
       "id": 12,
@@ -70,7 +70,7 @@
       "categoryId": "1",
       "question": "What if I cannot complete it within the timeframe? ",
       "answer": "You should complete a training within 1 year from the date of purchase or date of nomination, whichever is later",
-      "counter": 0
+      "counter": "1"
     },
     {
       "categoryId": "9",
@@ -98,13 +98,13 @@
       "categoryId": "2",
       "question": "How to access the courses for free on Coursera?",
       "answer": "While enrolling for the session on Coursera website, please select the audit only option to access the course for free.",
-      "counter": "60"
+      "counter": "64"
     },
     {
       "categoryId": "2",
       "question": "How to watch courses on YouTube without access?",
       "answer": "You can complete the course on your phone.",
-      "counter": "60",
+      "counter": "65",
       "id": 23
     },
     {
@@ -125,21 +125,21 @@
       "categoryId": "3",
       "question": "How many attempts do we have for the test?",
       "answer": "The test is open until you clear it",
-      "counter": "2",
+      "counter": "3",
       "id": 26
     },
     {
       "categoryId": "3",
       "question": "Do we have to clear the exams before applying for reimbursements?",
       "answer": "Yes, unless you clear the test, you cannot proceed with the reimbursement process.",
-      "counter": "2",
+      "counter": "3",
       "id": 27
     },
     {
       "categoryId": "4",
       "question": "Timesheet",
       "answer": "link to the MIS page",
-      "counter": "0",
+      "counter": "1",
       "id": 28
     },
     {
@@ -237,14 +237,14 @@
       "categoryId": "6",
       "question": "\tCan I get the reimbursement for the course purchased before it is offered to me on the Resource Dashboard?",
       "answer": "No, the reimbursement is only applicable for the courses bought after it was offered to you.",
-      "counter": "0",
+      "counter": "1",
       "id": 42
     },
     {
       "categoryId": "6",
       "question": "\tWhen can I apply for reimbursement? Is there any deadline for the same?",
       "answer": "You can apply for reimbursement any time after completion of the offered course. (based on Reimbursement norms active at that time)",
-      "counter": "1",
+      "counter": "2",
       "id": 43
     },
     {
@@ -405,87 +405,82 @@
   ],
   "feedBack": [
     {
-      "rating": "4",
-      "empId": "11",
-      "categoryId": "1",
-      "id": 1
+      "rating": "3",
+      "empId": "55",
+      "categoryName": "Free Courses",
+      "id": 25
     },
     {
       "rating": "4",
-      "empId": "553353",
-      "categoryId": "3",
-      "id": 12
+      "empId": "33",
+      "categoryName": "Free Courses",
+      "id": 26
     },
     {
       "rating": "4",
-      "empId": "7777",
-      "categoryId": "2",
-      "id": 13
-    },
-    {
-      "rating": "4",
-      "empId": "274039",
-      "id": 14
-    },
-    {
-      "rating": "4",
-      "empId": "2703999",
-      "categoryId": "2",
-      "id": 15
-    },
-    {
-      "rating": "4",
-      "empId": "27845",
-      "categoryId": "2",
-      "id": 16
-    },
-    {
-      "rating": "4",
-      "empId": "9797",
-      "categoryId": "2",
-      "id": 17
-    },
-    {
-      "rating": "2",
-      "empId": "000999",
-      "categoryId": "2",
-      "id": 18
-    },
-    {
-      "rating": "4",
-      "empId": "1111",
-      "categoryId": "2",
-      "id": 19
+      "empId": "868986",
+      "categoryName": "Free Courses",
+      "id": 27
     },
     {
       "rating": "3",
-      "empId": "78u",
-      "categoryId": "2",
-      "id": 20
-    },
-    {
-      "rating": "3",
-      "empId": "98009",
-      "categoryId": "1",
-      "id": 21
-    },
-    {
-      "rating": "3",
-      "empId": "654",
-      "categoryId": "2",
-      "id": 22
+      "empId": "4322",
+      "categoryName": "PAL Process and Dashboard ,",
+      "id": 28
     },
     {
       "rating": "4",
-      "empId": "7886",
-      "categoryId": "2",
-      "id": 23
+      "empId": "9090990",
+      "categoryName": "Free Courses",
+      "id": 29
     },
     {
       "rating": "4",
-      "empId": "65r66",
-      "categoryId": "2",
-      "id": 24
+      "empId": "7776677",
+      "categoryName": "Free Courses",
+      "id": 30
+    },
+    {
+      "rating": "3",
+      "empId": "99",
+      "categoryName": "Free Courses",
+      "id": 31
+    },
+    {
+      "rating": "3",
+      "empId": "454453",
+      "categoryName": "OES related queries",
+      "id": 32
+    },
+    {
+      "rating": "4",
+      "empId": "777",
+      "categoryName": "OES related queries",
+      "id": 33
+    },
+    {
+      "rating": "5",
+      "empId": "899767",
+      "categoryName": "Reimbursements",
+      "id": 34
+    },
+    {
+      "rating": "4",
+      "empId": "87876678",
+      "categoryName": "Reimbursements",
+      "id": 35
+    },
+    {
+      "rating": "5",
+      "empId": "3442",
+      "categoryName": "Respective DL’s",
+      "id": 36
+    },
+    {
+      "rating": "3",
+      "empId": "33543",
+      "categoryName": "Respective DL’s",
+      "id": 37
     }
   ],
   "admin": [
