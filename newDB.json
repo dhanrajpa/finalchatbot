@@ -496,5 +496,16 @@
       "password": "cybage@123",
       "id": 1
     }
+  ],
+  "logReport": [
+    {
+      "start-time": "x",
+      "end-time": "y",
+      "empId": "27052",
+      "catName": "xyz",
+      "questionInteraction": "xyz?",
+      "QuestionAnswer": ".xyz",
+      "id": 1
+    }
   ]
 }
