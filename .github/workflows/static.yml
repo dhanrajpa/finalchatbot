@@ -31,7 +31,8 @@ jobs:
         run: |
           # If you need to copy your files or generate a build folder, do that here.
           # For example, you might need to copy 'newDB.json' to the root directory.
-          cp src/newDB.json .  # Ensure the JSON file is accessible in the root folder
+          ls
+          cp ./src/newDB.json .  # Ensure the JSON file is accessible in the root folder
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
