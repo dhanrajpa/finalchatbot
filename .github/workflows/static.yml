@@ -21,23 +21,41 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: List repository contents for debugging
+        run: |
+          echo "Listing the repository contents:"
+          ls -R  # List the directory structure recursively
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Build or prepare static content
+      # Copy the 'newDB.json' file from 'src' directory to the root
+      - name: Copy newDB.json to root
         run: |
-          # If you need to copy your files or generate a build folder, do that here.
-          # For example, you might need to copy 'newDB.json' to the root directory.
-          ls
-          cp ./src/newDB.json .  # Ensure the JSON file is accessible in the root folder
+          # Verify the file exists in the 'src' directory
+          if [ -f src/newDB.json ]; then
+            echo "Found newDB.json, copying it to the root"
+            cp src/newDB.json .  # Ensure the JSON file is accessible in the root directory
+          else
+            echo "newDB.json not found in src directory"
+            exit 1
+          fi
+
+      # Install Python (if needed) and run the HTTP server to serve HTML
+      - name: Run HTTP server for previewing HTML
+        run: |
+          # Install Python if it's not already available
+          sudo apt-get install python3
+          # Run the Python HTTP server in the background
+          nohup python3 -m http.server 8080 &  # Serve files on port 8080
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '.'  # Upload everything in the current directory (including newDB.json)
 
       - name: Deploy to GitHub Pages
         id: deployment
