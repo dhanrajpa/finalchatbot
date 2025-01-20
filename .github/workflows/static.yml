@@ -28,7 +28,7 @@ jobs:
     - name: Start JSON server
       run: |
         ls
-        json-server --watch newDB.json
+        npx json-server --watch newDB.json
   
     - name: Serve home.html
       run: |
