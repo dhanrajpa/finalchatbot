@@ -26,7 +26,9 @@ jobs:
       run: npm install json-server --save-dev
 
     - name: Start JSON server
-      run: npx json-server ./src/newDB.json &
+      run: |
+        ls
+        npx json-server --watch newDB.json
   
     - name: Serve home.html
       run: |
