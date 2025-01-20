@@ -2,9 +2,9 @@ name: JSON Server CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'  # Use Node.js version 16 or later
 
     - name: Initialize npm
       run: npm init -y
@@ -26,12 +26,8 @@ jobs:
       run: npm install json-server --save-dev
 
     - name: Start JSON server
-      run: |
-        ls
-        npx json-server --watch newDB.json
-  
-    - name: Serve home.html
-      run: |
-        python3 -m http.server 8000 --directory src &
-        sleep 10 # wait for the server to start
-        curl http://localhost:8000/home.html
+      run: npx json-server --watch newDB.json &
+
+    # Optionally, you can add steps to test if the server is running correctly
+    - name: Test JSON server
+      run: curl http://localhost:3000
