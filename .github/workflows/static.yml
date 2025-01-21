@@ -26,8 +26,10 @@ jobs:
       run: npm install json-server --save-dev
 
     - name: Start JSON server
-      run: npx json-server --watch newDB.json &
-
-    # Optionally, you can add steps to test if the server is running correctly
-    - name: Test JSON server
-      run: curl http://localhost:3000
+      run: npx json-server --watch src/data.json --port 3000 &
+    
+    - name: Serve login.html
+      run: |
+        python3 -m http.server 8000 --directory src &
+        sleep 10 # wait for the server to start
+        curl http://localhost:8000/login.html
